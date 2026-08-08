@@ -1,0 +1,3 @@
+bucket=mlops-workshop-krysha-data1
+region=eu-west-1
+key=mlopserver/ecs/roll-001/terraform.tfstate
