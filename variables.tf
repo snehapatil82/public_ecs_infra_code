@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "roll_no" {
   description = "Roll number used to separate ECS Terraform state and resource names"
   type        = string
-  default     = "roll-001"
+  default     = "roll-053"
 }
 
 variable "cluster_name" {
@@ -25,7 +25,7 @@ variable "service_name" {
 variable "container_image" {
   description = "Docker image for the ECS task"
   type        = string
-  default     = "858230644497.dkr.ecr.ap-south-2.amazonaws.com/churn-api:4.0.0"
+  default     = "858230644497.dkr.ecr.ap-south-2.amazonaws.com/churn-api-snehapatil-053:1.0.0"
 }
 
 variable "container_port" {
