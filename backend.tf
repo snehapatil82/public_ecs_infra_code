@@ -3,7 +3,7 @@ terraform {
 
   backend "s3" {
     bucket = "mlops-workshop-krysha-data1"
-    key    = "mlopserver/ecs/default/terraform.tfstate"
+    key    = "mlopserver/ecs/snehapatil/terraform.tfstate"
     region = "eu-west-1"
   }
 
